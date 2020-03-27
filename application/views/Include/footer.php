@@ -1,13 +1,12 @@
-<footer>
-<div class="container">
-
-</div>
-</footer>
-
-<section class="bottom-footer">
+<section class="footer-bottom bg-black">
   <div class="container">
     <div class="row">
-      
+      <div class="col-md-6">
+        <p class="text-white">© RATNA UDYOG 2015</p>
+      </div>
+      <div class="col-md-6">
+        <p class="text-white text-right">Web Design by Technothinksup Solutions PVT. LTD.</p>
+      </div>
     </div>
   </div>
 </section>

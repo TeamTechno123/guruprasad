@@ -1,597 +1,146 @@
 body{
-  padding: 0px;
-  margin: 0px;
-}
-.row {
   padding: 0px!important;
   margin: 0px!important;
-}
- .container-fluid{
-  padding: 0px!important;
-  margin: 0px!important;
+  background: #000 url(../images/background.jpg);
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h4, h6, p{
-  font-family: 'Asap';
+.default-page-heading{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #000 url(../images/head-bg.jpg);
+}
+
+.row{
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+.container-fluid{
+  padding: 0px!important;
+  margin: 0px!important;
 }
 
 .navbar-top{
-  border-bottom: 1px solid #37a7bd;
+  width: 100%;
 }
 
+.p-0{
+  padding: 0px!important;
+}
 
-.bg-blue{
+.bg-white{
   background-color: #fff!important;
+  opacity: 1;
+  z-index: 1000;
+}
 
+.bg-red{
+  background-color: #c32025!important;
+}
+
+.bg-black{
+  background-color: #282828!important
+}
+
+.bg-blackdark{
+  background-color: #1a1a1a!important
+}
+
+.p-30{
+  padding: 20px!important;
+}
+
+.p-10{
+  padding: 10px!important;
+}
+
+
+
+
+.logo-img{
+  width:220px;
+  height:75px;
+  margin-right: 30px;
+}
+
+
+.navbar-nav .nav-link{
   color: #fff;
-}
-.bg-blue1{
-  background-color: #37a7bd;
-  color: #fff;
-}
-
-.nav-link{
-  /* color: #fff; */
-  color: #37a7bd;
-  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 14px;
 }
 
-.active{
-  color: #4F4F4F!important;
+.nav-link:focus, .navbar-nav a:hover{
+  background-color: #282828!important;
 }
 
 .slider-img{
   width: 100%;
-  height: 350px;
+  height: 550px;
 }
 
-.blue_bg {
-    background: url(../images/blue_bg.jpg) no-repeat center top;
-    min-height: 363px;
-    width: 100%;
-}
-
-.img-section{
-  background: url(../images/blue_bg.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-Reseller{
-  background: url(../images/become_resellor.png) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-carrer{
-  background: url(../images/carrer.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-leadership{
-  background: url(../images/inovation.jpeg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-exelence{
-  background: url(../images/exelence.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-
-.img-section-policy{
-  background: url(../images/policy.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-team{
-  background: url(../images/team.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-partnership{
-  background: url(../images/partnership.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-.img-section-managment{
-  background: url(../images/managment.jpg) no-repeat center top;
-  min-height: 363px;
-  width: 100%;
-}
-
-
-.text-img{
-  position: absolute;
-  top: 60%;
-  left: 8%;
-  padding-left: 15px;
-}
-
-.about-content{
+.content-section h2{
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+  font-weight: 700;
 }
 
-.small-img{
-  width: 100%;
-  height: 200px;
+.f-22{
+  font-size: 22px!important;
 }
 
-.text-head h4{
-  font-size: 18px;
-  color: #000;
+.f-30{
+  font-size: 30px!important;
 }
-a:hover{
-  text-decoration: none;
-}
-
-.text-img:before{
-  border-left: 1px solid #fff;
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 30px;
-  top: 0;
-  margin: 0 auto;
-
-}
-
-.page-top-img{
-  background: url(../images/contact.jpeg) no-repeat center top;
-  min-height: 320px;
-  /* float: left; */
-  width: 100%;
-}
-
-.bottom-footer{
+.footer-bottom{
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.text-grey{
-  color: #000!important;
-}
-.pt-30{
-  padding-top: 30px!important;
-}
-
-.navbar .dropdown-menu {
-  background-color: #07263a;
-}
-.dropdown-item{
-  color: #fff;
-}
-
-.f-12{
-  font-size: 12px;
-}
-.f-16{
-  font-size: 16px;
-}
-.f-14{
-  font-size: 14px;
-}
-.f-18{
-  font-size: 18px!important;
+.footer-bottom p{
+  margin-bottom: 0px;
 }
 
 
-
-.blue_bg .card{
-  width: 100%;
-  border: 1px solid #38A8BF;
-  margin-top: 20px;
-}
-
-.blue_bg .card-body{
-  text-align: center;
-  background-color: #38A8BF;
-  color: #fff;
-}
-
-.navbar-brand .com-logo{
-  width: 200px;
-  height: 50px;
-}
-
-.navbar-brand .company-img{
-  width: 100%;
-  height:30px;
-}
-
-.about-text{
+.text-content{
   padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.img-div{
-  width: 100%;
-  height: 350px;
-}
-
-.img-div img{
-      padding-top: 80px;
-      vertical-align: middle;
-}
-
-footer{
-  background-color: #ececec;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-top: 2px solid #37a7bd;
-}
-
-/**************************************** Default Page*******************************/
-
-.default-page{
-  padding-top: 30px;
   padding-bottom: 30px;
 }
 
-
-.default-page .page-heading{
-font-size: 2.3rem;
-text-align: center;
-width: auto;
+.default-page-heading h1{
+  font-size: 2rem!important;
 }
 
-.default-page .page-heading:after {
-    border-bottom: 4px solid #37a7bd;
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 120px;
-    top: 92%;
-    margin: 0 auto;
+.default-page-containt h3{
+  font-size: 1.5rem!important;
+  padding-bottom: 10px;
 }
 
-.text-section .page-heading:after {
-    border-bottom: 4px solid #37a7bd;
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 120px;
-    top: 92%;
-    margin: 0 auto;
-}
-
-
-.address-sec .page-heading:after {
-    border-bottom: 4px solid #37a7bd;
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 120px;
-    top: 65%;
-    margin: 0 auto;
-
-}
-
-.text-section{
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
-
-.text-section .text-div{
-
-  font-size: 18px;
-  font-family: 'Asap';
-  text-align: justify;
-}
-
-.sec-about-img{
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-.sec-about-img img{
-width: 100%;
-height: 300px;
-
-}
-
-.sec-about2{
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-
-
-
-
-/**************************************** End  Default Page*******************************/
-
-.sec-2{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #38A8BF;
-}
-
-.sec-3{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.sec-3 h4{
- padding-top: 10px;
- padding-bottom: 20px;
-}
-
-.sec-4{
-  padding-top: 30px;
-  padding-bottom: 40px;
-
-}
-
-.sec-4 .card{
-  width: 100%;
-}
-
-.sec-4 .card-body{
-font-style: italic;
-}
-
-
-
-
-
-.color-black{
-  color: #000;
-}
-
-
-
-.middle-mail{
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-
-.contact-img{
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-.bt-blue{
-  border-top: 1px solid #c2c2c2;
-}
-
-.bt-blue .col-md-4:not(:first-child){
-border-left: 1px solid #c2c2c2;
-}
-
-.pt-20{
-  padding-top: 20px!important;
-}
-
-
-.gallery-section{
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-.gallery-section img{
-  width: 100%;
-  height: auto;
-  padding-bottom: 30px;
-}
-
-.address-sec{
-  padding-top: 50px;
-  padding-bottom: 40px;
-  margin-bottom: 30px;
-}
-.address-sec .page-heading{
-color: #349ed7;
-}
-
-
-footer ul{
+.list-design{
   list-style-type: none;
-  padding-left: 10px!important;
-}
-
-footer h4{
-  font-size: 16px!important;
-  font-weight: bold;
-}
-
-footer ul li:before {
-  content: '-';
-}
-
-footer li a{
-  font-size: 12px;
-  padding-left: 0px;
-  color: #807f7f;
+  padding-left: 10px;
 }
 
 
+.list-design li:before{
+  content: "\00BB";
+  font-size: 25px;
+  margin-right: 8px;
+}
 
-
-.text-section h5{
+.card{
+  border: 1px solid #fff;
   margin-bottom: 30px;
 }
 
-.hr-web{
-  /* border-top: 1px solid #000; */
-  border-top: 3px double #37a7bd;
+.card-body{
+  background-color: #282828;
+  color: #fff;
 }
 
-.job{
+.text p{
   font-size: 18px;
-  list-style: none;
-  padding-top: 20px;
-}
-
-.job li{
-  padding: 5px;
-}
-
-
-.table-job{
-  margin-top: 20px!important;
-}
-
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
-
-.custom-file-input:lang(en)~.custom-file-label:after {
-content: "Upload Resume"!important;
-}
-.custom-file-label::after {
-
-color: #fff!important;
-content: "Upload Resume";
-background-color: #349ed7!important;
-
-}
-
-.resellor-mail{
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-@media screen and (max-width: 400px) {
-
-  .slider-img{
-    width: 100%;
-    height: 300px;
-  }
-
-  .navbar-toggler{
-  /* border-color: #fff!important; */
-  border-color: #37a7bd!important;
-  }
-
-  .navbar-collapse{
-    background-color: #07263a;
-    padding-left: 15px;
-    opacity: 1;
-  }
-
-  .nav-link{
-    color: #fff;
-    /* color: #37a7bd; */
-    font-size: 18px;
-  }
-
-  .active{
-    color: #fff!important;
-  }
-
-
-
-
-    .navbar-toggler-icon .bar3{
-      /* color: #fff; */
-      color: #37a7bd;
-      padding-top: 5px;
-    }
-
-    .about-text #msecond{
-      order: 2;
-    }
-
-    .img-div{
-      width: 100%;
-      height: auto;
-    }
-    footer h4{
-      text-align: center;
-    }
-
-    footer .text-left{
-      text-align: justify!important;
-    }
-
-    .m-center{
-      text-align: center!important;
-    }
-    .default-page{
-      padding-top: 20px;
-      padding-bottom: 30px;
-    }
-
-    .bt-blue .col-md-4:not(:first-child){
-    border-left: none;
-    }
-
-
-    .text-section .h5{
-      margin-top: 10px!important;
-      margin-bottom: 10px!important;
-    }
-
-    .blue_bg {
-        background: url(../images/blue_bg.jpg) repeat center top;
-        width: 100%;
-    }
-
-     .blue_bg #card2{
-      margin-bottom: 30px;
-    }
-
-    footer li{
-      text-align: center!important;
-    }
-
-    .img-section{
-      display:none;
-    }
-
-    .sec-4 .card{
-      margin-bottom: 30px;
-    }
-
-    .bg-black-mobile{
-      padding-top: 30px;
-      padding-bottom: 40px;
-      background-color: #000;
-    }
-
-    .btn-mobile{
-      padding: 5px 15px;
-      border-radius: 50px;
-      border: 1.5px solid #38A8BF;
-    }
-
-    .m-justify{
-      text-align: justify!important;
-    }
-
-    .page-heading-m{
-      font-size: 28px;
-      font-weight: bold;
-      text-align: center;
-    }
-
-    .page-heading-mobile{
-      padding-top: 30px;
-    }
-
-
-
-    .page-heading-m:after {
-        border-bottom: 4px solid #37a7bd;
-        content: '';
-        position: absolute;
-        left: 0;
-        right: 0;
-        width: 120px;
-        top: 92%;
-        margin: 0 auto;
-    }
-
-
+  margin-top: 10px;
 }
